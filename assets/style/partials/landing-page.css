@@ -1,0 +1,114 @@
+
+
+header #logo{
+ margin-left: .2rem;
+ margin-bottom: 2.2rem;
+ display: flex;
+ align-items: center;
+ font-weight: 400;
+ font-size: 2.3rem;
+}
+
+header h1 {
+  font-size: 2.3rem;
+  margin-top: 1.3rem;
+}
+
+#container-apresentation {
+  text-align: center;
+  margin: 6.4rem auto 6rem;
+}
+
+#container-apresentation h2 {
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  margin-top: 0.8rem;
+}
+
+#container-apresentation a {
+  width: 20rem;
+  height: 5.4rem;
+  margin-left: 26.6rem;
+  margin-top: 2.4rem;
+  border-radius: 0.8rem;
+  font: 600 2.8rem/1 'Nunito Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--color-button-text);
+  background-color: greenyellow;
+  transition: background 0.2s;
+}
+
+#container-apresentation a img {
+  width: 4rem;
+  margin-left: 2.4rem;
+
+}
+
+#about {
+  text-align: center;
+  margin: 6.4rem auto 6rem;
+  padding: 1.8rem;
+  font: 400 1.8rem/1 'Nunito Sans', sans-serif;
+}
+
+#about p:first-child {
+  margin-bottom: 1.8rem;
+}
+
+#services {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  flex-direction: column;
+
+  margin: 2em auto;
+  width: 80%;
+}
+
+#services h2 {
+  margin-bottom: 2rem;
+}
+
+#services #services-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#services #services-list .service-item {
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px black solid;
+  border-radius: .4rem;
+  padding: 2rem;
+}
+
+.container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: .4rem black solid;
+  width: 13.5rem;
+  height: 13.5rem;
+  border-radius: 50%;
+  margin: 3rem auto 1.5rem;
+}
+
+#services #services-list .service-item .container-img img {
+  width: 8rem;
+}
+
+
+
