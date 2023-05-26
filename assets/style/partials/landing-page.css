@@ -1,8 +1,5 @@
-
-
 header #logo{
- margin-left: .2rem;
- margin-bottom: 2.2rem;
+ margin: 1rem .2rem 2.2rem;
  display: flex;
  align-items: center;
  font-weight: 400;
@@ -17,20 +14,24 @@ header h1 {
 #container-apresentation {
   text-align: center;
   margin: 6.4rem auto 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 #container-apresentation h2 {
   font-weight: 600;
   font-size: 3.6rem;
   line-height: 4.6rem;
-  margin-top: 0.8rem;
+  margin: 0.8rem 3rem ;
 }
 
 #container-apresentation a {
   width: 20rem;
   height: 5.4rem;
-  margin-left: 26.6rem;
-  margin-top: 2.4rem;
+  margin-top: 3rem;
   border-radius: 0.8rem;
   font: 600 2.8rem/1 'Nunito Sans', sans-serif;
   display: flex;
@@ -39,20 +40,14 @@ header h1 {
   text-decoration: none;
   color: var(--color-button-text);
   background-color: greenyellow;
-  transition: background 0.2s;
-}
-
-#container-apresentation a img {
-  width: 4rem;
-  margin-left: 2.4rem;
-
+  transition: background 0.2s; 
 }
 
 #about {
   text-align: center;
-  margin: 6.4rem auto 6rem;
+  margin: 4.4rem auto 6rem;
   padding: 1.8rem;
-  font: 400 1.8rem/1 'Nunito Sans', sans-serif;
+  font: 400 2rem/1 'Nunito Sans', sans-serif;
 }
 
 #about p:first-child {
@@ -63,9 +58,7 @@ header h1 {
   display: flex;
   align-items: center;
   text-align: center;
-
   flex-direction: column;
-
   margin: 2em auto;
   width: 80%;
 }
@@ -75,7 +68,6 @@ header h1 {
 }
 
 #services #services-list {
-  display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
@@ -85,12 +77,11 @@ header h1 {
 }
 
 #services #services-list .service-item {
-  margin: 1rem auto;
-  display: flex;
+  margin: 2rem auto;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 1px black solid;
+  border: 1.5px black solid;
   border-radius: .4rem;
   padding: 2rem;
 }
@@ -108,7 +99,5 @@ header h1 {
 
 #services #services-list .service-item .container-img img {
   width: 8rem;
+  justify-content: center;
 }
-
-
-
